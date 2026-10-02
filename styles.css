@@ -1,19 +1,12 @@
-
 body {
-        margin: 0;
-        padding: 0;
-        background: #d9dbdb;
-        background: linear-gradient(90deg, rgba(217, 219, 219, 1) 10%, rgba(157, 172, 179, 1) 36%, rgba(129, 143, 150, 1) 64%, rgba(106, 134, 145, 1) 100%);
+background: #456C8C;
+background: linear-gradient(90deg,rgba(69, 108, 140, 1) 0%, rgba(119, 138, 150, 1) 34%, rgba(153, 175, 194, 1) 64%, rgba(165, 191, 201, 1) 100%);
 }
-        .banner {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-          /* Keep the logo and links in separate child elements; this places
-         the first child at the left and the last child at the right. */
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
+header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 10px 20px;
 }
 .mainnav {
             display: flex;
@@ -23,18 +16,62 @@ body {
             align-items: center;
             gap: 15px;
             margin-right: 20px;
+            margin-left: auto;
 }
 label {
-            display: block;
-            font-size: 10px;
+            display: flex;
+            font-size: 16px;
+            align-items: center;
+            color:azure;
             
 }
-section.inner {
-            background-color: #f6a21a;
-            padding: 23px;
-            margin-top: 21px;
-            margin-bottom: 15px;
-            border-radius: 12px;
-            color: white;
-            width: 300px;
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 20px 0 20px;
+    border-radius: 14px;
+}
+#name {
+    margin-bottom: 10px;
+    padding: initial;
+}
+#email {
+    margin-bottom: 10px;
+    padding: initial;
+
+}
+.car{
+    margin: 50px 0px 0px -520px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #9baab1;
+    border-radius: 14px;
+    padding: 15px 50px 50px 40px;
+    margin-left: 500px;
+}
+.title-form {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       margin-right: 15px;
+}
+.footernav {
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-end;
+        padding: 0 15px 0 15px;
 }
