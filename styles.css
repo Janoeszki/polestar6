@@ -51,7 +51,7 @@ label {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    background-color: #9baab1;
+    background-color: #647f92;
     border-radius: 14px;
     padding: 15px 50px 50px 40px;
     margin-left: 500px;
@@ -62,7 +62,14 @@ label {
     margin-bottom: 10px;
     justify-content: center;
 }
-
+.text{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.text_below{
+    font-size: 20px;
+    margin-left: 30px;
+}
 .footer{
         display: flex;
         flex-direction: row;
