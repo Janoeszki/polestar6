@@ -27,6 +27,7 @@ label {
     align-items: flex-start;
     margin: 20px 20px 0 20px;
     border-radius: 14px;
+    position: relative;
 }
 #name {
     margin-bottom: 10px;
@@ -38,8 +39,17 @@ label {
 
 }
 .car{
-    margin: 50px 0px 0px -520px;
+    position: relative;
+    z-index: 1;
+    margin: 50px 0 0;
 }
+.plasma {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 0;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -49,7 +59,8 @@ label {
     background-color: #647f92;
     border-radius: 14px;
     padding: 15px 50px 50px 40px;
-    margin-left: 500px;
+    position: relative;
+    z-index: 2;
 }
 .title-form {
     font-size: 24px;
